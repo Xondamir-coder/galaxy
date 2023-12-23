@@ -36,8 +36,6 @@ const parameters = {
 	insideColor: '#ff6030',
 	outsideColor: '#1b3984',
 };
-const axesHelper = new THREE.AxesHelper();
-scene.add(axesHelper);
 let particleGeometry, particleMaterial, particles;
 const generateGalaxy = function () {
 	// Dispose of old galaxy
